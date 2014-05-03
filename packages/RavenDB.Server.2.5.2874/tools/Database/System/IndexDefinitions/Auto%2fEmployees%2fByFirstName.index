@@ -1,0 +1,25 @@
+{
+  "Name": "Auto/Employees/ByFirstName",
+  "LockMode": "Unlock",
+  "Map": "from doc in docs.Employees\r\nselect new { FirstName = doc.FirstName }",
+  "Maps": [
+    "from doc in docs.Employees\r\nselect new { FirstName = doc.FirstName }"
+  ],
+  "Reduce": null,
+  "TransformResults": null,
+  "IsMapReduce": false,
+  "IsCompiled": false,
+  "Stores": {},
+  "Indexes": {},
+  "SortOptions": {},
+  "Analyzers": {},
+  "Fields": [],
+  "Suggestions": {},
+  "TermVectors": {},
+  "SpatialIndexes": {},
+  "InternalFieldsMapping": {
+    "FirstName": "FirstName"
+  },
+  "Type": "Auto",
+  "DisableInMemoryIndexing": false
+}
