@@ -13,7 +13,6 @@ namespace testRavenDB
 {
     public class MvcApplication : System.Web.HttpApplication
     {
-        // test 1
         public static DocumentStore MyStore;
         protected void Application_Start()
         {
