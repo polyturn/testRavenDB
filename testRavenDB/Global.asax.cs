@@ -11,6 +11,7 @@ using System.Web.Routing;
 
 namespace testRavenDB
 {
+    // test 2
     public class MvcApplication : System.Web.HttpApplication
     {
         public static DocumentStore MyStore;
